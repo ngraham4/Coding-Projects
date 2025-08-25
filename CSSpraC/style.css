@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+header { /* header styles */
+    background-color:lightgray;
+    color: black;
+    padding: 24px;
+    text-align: center;
+}
+.navbar { /* navbar styles */
+    background: silver;
+
+    color: rgb(0, 0, 0);
+    height: 30px;
+    display: flex;
+    padding: auto;
+    text-decoration: none;
+    column-gap: 12px;
+}
+main {
+    flex: 1;
+    display: flex;
+    padding: 12px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    background: rgb(255, 254, 238);
+}
+section{
+    width: 40%;
+    float: left;
+   padding: 10px;
+}
+article {
+    width: 40%;
+    float: left;
+    background: white;
+    padding: 10px;
+}
+.ads {
+    background: transparent;
+    height: 30px;
+    margin-bottom: 12px;
+}
+footer{
+    display: block;
+    clear: both;
+    background-color: #f0efef;
+    background-image: url("pixelHeart.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 600px) {
+    aside, section, article {
+        width: 100%;
+    }
+
+}
